@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "psliitkgp/psliitkgp.github.io",
+    "data-repo": "nanophotonicskgp/nanophotonicskgp.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
