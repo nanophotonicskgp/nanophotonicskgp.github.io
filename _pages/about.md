@@ -6,7 +6,7 @@ subtitle: <a href='https://www.iitkgp.ac.in/department/PH/'>Department of Physic
 
 profile:
   align: right
-  image: MNPL_logo.png
+  image: NMPL_logo.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Kharagpur, India - 721302</p>
@@ -30,7 +30,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-At the Micro-Nano Photonics Lab, we work on light-matter interaction in ORDERED and DISORDERED Photonics. Periodic and random structures are fabricated and studied using a variety of optical techniques to understand light confinement in them. Some of our primary research interests include:
+At the Nano-Micro Photonics Lab, we work on light-matter interaction in ORDERED and DISORDERED Photonics. Periodic and random structures are fabricated and studied using a variety of optical techniques to understand light confinement in them. Some of our primary research interests include:
 
 <table>
   <tr>
