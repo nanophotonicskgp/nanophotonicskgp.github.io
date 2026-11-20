@@ -23,13 +23,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.3255956"
-     inkscape:cx="264.66338"
-     inkscape:cy="62.564618"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.82222221"
+     inkscape:cx="-45.000001"
+     inkscape:cy="-4.8648649"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg10" />
   <defs
@@ -133,7 +133,7 @@
      letter-spacing="0.5"
      id="text9"
      transform="scale(0.95959065,1.042111)"
-     style="stroke-width:0.959591;fill:#7100d3;fill-opacity:1">Micro-Nano Photonics</text>
+     style="fill:#7100d3;fill-opacity:1;stroke-width:0.959591">Nano-Micro Photonics</text>
   <!-- Sub-Title / Lab Designation -->
   <text
      x="140"
@@ -154,8 +154,8 @@
      x="20.656069"
      y="3.4561739"
      inkscape:export-filename="MNPL_logo.png"
-     inkscape:export-xdpi="600"
-     inkscape:export-ydpi="600" />
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.504193;stroke-opacity:1"
      id="rect10-9"
