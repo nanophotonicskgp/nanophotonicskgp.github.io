@@ -2,7 +2,7 @@
 layout: member
 inline: false
 group: PhD Students
-group_rank: 2
+group_rank: 3
 team_collaborator: false
 year: 2023
 

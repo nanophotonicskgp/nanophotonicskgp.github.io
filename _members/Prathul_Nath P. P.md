@@ -9,7 +9,7 @@ year: 2017
 title: Prathul Nath P. P.
 description: MTech student
 lastname: Nath
-publications:
+publications: 
 
 teaser: >
     M.Tech Thesis: Fabrication of Optical Waveguides for Integrated Optic and Optofluidic Device Applications

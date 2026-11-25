@@ -23,7 +23,7 @@ profile:
   image: team/avinash_kumar.jpeg
 title: Avinash Kumar
 group: Post Doctoral Researcher
-group_rank: 1
+group_rank: 2
 description:
 lastname: Kumar
 publications: '@*[author^=.*(Avinash.*Kumar|Kumar.*Avinash)]'

@@ -3,7 +3,6 @@ layout: member
 inline: false
 group: Group Leader
 group_rank: 1
-group_order: 1
 
 title: Shivakiran B. N. Bhaktha
 description: Profile of Shivakiran B. N. Bhaktha, PI
