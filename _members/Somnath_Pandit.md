@@ -1,15 +1,15 @@
 ---
-layout: about
+layout: member
 inline: false
 group: PhD Students
 group_rank: 2
 team_collaborator: false
-
+year: 2023
 
 title: Somnath Pandit
 description: PhD student
 lastname: Pandit        
-publications: 'author^=*Somnath'
+publications: '@*[author^=.*(Somnath.*Pandit|Pandit.*Somnath)]'
 
 teaser: >
     Developing ultrasensitive photonic-crystal sensors having potential applications in healthcare, agriculture, and environmental monitoring.
