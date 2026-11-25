@@ -1,0 +1,102 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if page.profile.name %}
+        {{ page.profile.name }}
+      {% elsif page.title %}
+        {{ page.title }}
+      {% else %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle | default: page.profile.position }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.name
+            cache_bust=true
+          %}
+        {% endif %}
+
+        <!-- Member Social & Contact Icons Below Photo -->
+        <div class="member-social text-center mt-2 mb-2" style="font-size: 1.4rem;">
+          {% if page.profile.email %}
+            <a href="mailto:{{ page.profile.email }}" title="Email" class="mx-1"><i class="fas fa-envelope"></i></a>
+          {% endif %}
+          {% if page.profile.phone %}
+            <a href="tel:{{ page.profile.phone }}" title="Phone" class="mx-1"><i class="fas fa-phone"></i></a>
+          {% endif %}
+          {% if page.profile.orcid %}
+            <a href="https://orcid.org{{ page.profile.orcid }}" title="ORCID" class="mx-1" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid"></i></a>
+          {% endif %}
+          {% if page.profile.gscholar %}
+            <a href="https://google.com{{ page.profile.gscholar }}" title="Google Scholar" class="mx-1" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+          {% endif %}
+          {% if page.profile.researchgate %}
+            <a href="https://researchgate.net{{ page.profile.researchgate }}" title="ResearchGate" class="mx-1" target="_blank" rel="noopener noreferrer"><i class="ai ai-researchgate"></i></a>
+          {% endif %}
+          {% if page.profile.github %}
+            <a href="https://github.com{{ page.profile.github }}" title="GitHub" class="mx-1" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if page.profile.linkedin %}
+            <a href="https://linkedin.com{{ page.profile.linkedin }}" title="LinkedIn" class="mx-1" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          {% endif %}
+          {% if page.profile.twitter %}
+            <a href="https://twitter.com{{ page.profile.twitter }}" title="Twitter" class="mx-1" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          {% endif %}
+          {% if page.profile.website %}
+            <a href="{{ page.profile.website }}" title="Personal Website" class="mx-1" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+          {% endif %}
+          {% if page.profile.cv %}
+            <a
+              {% if page.profile.cv contains '://' %}
+                href="{{ page.profile.cv }}"
+              {% else %}
+                href="{{ page.profile.cv | prepend: 'assets/pdf/' | relative_url }}"
+              {% endif %}
+              title="CV"
+              class="mx-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><i class="fas fa-file-pdf"></i></a>
+          {% endif %}
+        </div>
+
+        <!-- Member Address / More Info Below Icons -->
+        {% if page.profile.more_info or page.profile.address %}
+          <div class="more-info">
+            {{ page.profile.more_info }}
+            {% if page.profile.address %}
+              <p class="mt-2">{{ page.profile.address }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- Member Publications -->
+    {% if page.publications %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+      </h2>
+      <div class="publications">
+        {% bibliography --query {{ page.publications }} %}
+      </div>
+    {% endif %}
+
