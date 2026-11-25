@@ -129,9 +129,9 @@ ninja.data = [{
           description: "MTech student",
           section: "Members",handler: () => {
               window.location.href = "/members/Pranab_Maji";
-            },},{id: "members-",
-          title: '',
-          description: "",
+            },},{id: "members-prathul-nath-p-p",
+          title: 'Prathul Nath P. P.',
+          description: "MTech student",
           section: "Members",handler: () => {
               window.location.href = "/members/Prathul_Nath%20P.%20P";
             },},{id: "members-pratyusha-das",
