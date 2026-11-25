@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Group Leader
 group_rank: 1
@@ -8,7 +8,7 @@ group_order: 1
 title: Shivakiran B. N. Bhaktha
 description: Profile of Shivakiran B. N. Bhaktha, PI
 lastname: Bhaktha
-publications: 'author^=*Shivakiran'
+publications: 
 
 teaser: >
     Shivakiran is Professor at Indian Institute of Technology Kharagpur. His research focuses to understand the behaviour of light in periodic and random structures, and develop photonic devices.
@@ -88,4 +88,3 @@ Year	        : June 1998 – March 2001
 
 
 *Updated: July 28, 2026*
-
