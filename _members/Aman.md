@@ -9,7 +9,7 @@ year: 2026
 title: Aman
 description: MTech student
 lastname: 
-publications: 'author^=*Lavkush'
+publications:
 
 teaser: >
     ....
@@ -28,9 +28,6 @@ profile:
         India
 ---
 
-
-
-## Short Bio
 
 
 *Updated: Feb 09, 2026*
