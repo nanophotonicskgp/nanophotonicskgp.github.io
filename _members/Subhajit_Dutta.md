@@ -1,15 +1,15 @@
 ---
-layout: about
+layout: member
 inline: false
 group: PhD Students
 group_rank: 2
 team_collaborator: false
-
+year: 2019
 
 title: Subhajit Dutta
 description: PhD student
 lastname: Dutta        
-publications: 'author^=*Subhajit'
+publications: '@*[author^=.*(Subhajit.*Dutta|Dutta.*Subhajit)]'
 
 teaser: >
     Senior Research Fellow at the Indian Institute of Technology, Kharagpur, contributing to advancements in On chip and on-fiber photonic and optoelectronic devices. The work involves designing, Fabrication, Analysis.

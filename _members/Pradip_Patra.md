@@ -1,15 +1,15 @@
 ---
-layout: about
+layout: member
 inline: false
 group: PhD Students
-group_rank: 2
+group_rank: 3
 team_collaborator: false
-
+year: 2025
 
 title: Pradip Patra
 description: PhD student
 lastname: Patra        
-publications: 'author^=*Pradip'
+publications: '@*[author^=.*(Pradip.*Patra|Patra.*Pradip)]'
 
 teaser: >
      Developing highly sensitive photonic-crystal based agri-food sensors and adevice having potential applications agriculture, and food industry.

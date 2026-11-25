@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -10,10 +10,9 @@ year: 2024
 title: Sudha Maria Lis S
 description: PhD student
 lastname: Maria Lis S
-publications: 'author^=*Sudha'
+publications: '@*[author^=.*(Sudha.*Maria |Maria .*Sudha)]'
 
 teaser: >
-    Completed her PhD on Jan 2024.<br>
     Nanophotonics.
     PhD Thesis: Nano-engineering of Photonic Crystal Platform Aided Enhancement of Surface, Tamm and Microcavity States.
     

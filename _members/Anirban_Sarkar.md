@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -9,11 +9,11 @@ year: 2017
 title: Anirban Sarkar 
 description: PhD Students
 lastname: Sarkar
-publications: 'author^=*Anirban'
+publications: '@*[author^=.*(Anirban.*Sarkar|Sarkar.*Anirban)]'
 
 teaser: >
-    Completed his PhD on Nov 2017.<br>
     PhD Thesis: Investigations on Lasing Modes in Weakly Scattering Polymer and Optofluidic Random Structures.
+    
 profile:
     name: Anirban Sarkar 
     position: Assistant Professor, Department of Physics, National institute of Technology Calicut, India

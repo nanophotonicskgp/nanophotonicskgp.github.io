@@ -1,15 +1,15 @@
 ---
-layout: about
+layout: member
 inline: false
 group: PhD Students
 group_rank: 2
 team_collaborator: false
-
+year: 2022
 
 title: Susovan Giri
 description: PhD student
 lastname: Giri        
-publications: 'author^=*Susovan'
+publications: '@*[author^=.*(Susovan.*Giri|Giri.*Susovan)]'
 
 teaser: >
     Susovan is a studying Bose-Einstein condensate.
@@ -28,9 +28,4 @@ profile:
         Department of Physics, IIT Kharagpur, India.
 ---
 
-I am a PhD student ....
-
-
-## Short Bio
-
-I have my B.Sc degree in .....
+*Updated: Feb 09, 2026*

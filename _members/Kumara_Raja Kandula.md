@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,12 +9,11 @@ year: 2013
 title: Kumara Raja Kandula
 description: MTech student
 lastname: Kandula
-publications: 'author^=*Kumara'
+publications: 
 
 teaser: >
-    Kumara finished his MTech in July 2025. His research focused ....
     M.Tech Thesis: Fabrication and Characterization of Planar Optical Waveguides for Applications in Photonics
-    Model: 
+  
 profile:
     name: Kumara Raja Kandula
     position: MTech Student 
@@ -28,10 +27,5 @@ profile:
         
 ---
 
-Pranab was a MTech student in the Department of .....
 
-## Short Bio
-
-... has completed the degree in Summer 2025. Currrently ......
-
-## Publication
+*Updated: Feb 09, 2026*

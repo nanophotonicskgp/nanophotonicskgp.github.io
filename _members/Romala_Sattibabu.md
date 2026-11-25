@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -9,10 +9,9 @@ year: 2023
 title: Romala Sattibabu
 description: PhD student
 lastname: Sattibabu
-publications: 'author^=*Romala'
+publications: '@*[author^=.*(Romala.*Sattibabu|Sattibabu.*Romala)]'
 
 teaser: >
-    Completed his PhD on Feb 2023.<br>
     MS Thesis:Design and Fabrication of Titanium indiffused Lithium Niobate based Integrated Optic Devices.
 profile:
     name: Romala Sattibabu

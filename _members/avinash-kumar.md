@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 team_collaborator: false
 profile:
@@ -26,7 +26,7 @@ group: Post Doctoral Researcher
 group_rank: 1
 description:
 lastname: Kumar
-publications: 'author^=*Avinash'
+publications: '@*[author^=.*(Avinash.*Kumar|Kumar.*Avinash)]'
 teaser: |-
   Nanomaterials, Nanophotonics, Photonic Crystals, and Optical Sensing.
 year: 2026

@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,12 +9,11 @@ year: 2021
 title: Vaibhav Chaturvedi
 description: MTech student
 lastname: Chaturvedi
-publications: 'author^=*Vaibhav'
+publications: 
 
 teaser: >
-    Vaibhav finished his MTech in July 2025. His research focused ....
     M.Tech Thesis: Finite Difference Time Domain Computation of OneDimensional Photonic Crystal Structures
-    Model: 
+  
 profile:
     name: Vaibhav Chaturvedi
     position: MTech Student 
@@ -28,10 +27,4 @@ profile:
        
 ---
 
-Pranab was a MTech student in the Department of .....
-
-## Short Bio
-
-... has completed the degree in Summer 2025. Currrently ......
-
-## Publication
+*Updated: Feb 09, 2026*

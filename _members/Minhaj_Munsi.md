@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,7 +9,7 @@ year: 2025
 title: Minhaj Munshi
 description: MTech student
 lastname:  Munshi
-publications: 'author^=*Minhaj'
+publications: 
 
 teaser: >
     His research focused on integrated photonics, micro/nanofabrication, and optical characterization.

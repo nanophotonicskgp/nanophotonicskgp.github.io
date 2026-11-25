@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -9,10 +9,9 @@ year: 2023
 title: Subhajit Jana
 description: PhD student
 lastname: Jana
-publications: 'author^=*Subhajit'
+publications: '@*[author^=.*(Subhajit.*Jana|Jana.*Subhajit)]'
 
 teaser: >
-    Completed his PhD on Feb 2023.<br>
     PhD Thesis: Studies on Two-Dimensional Nanomaterials for Broadband Photodetection with Extended Spectral Coverage.
 profile:
     name: Subhajit Jana

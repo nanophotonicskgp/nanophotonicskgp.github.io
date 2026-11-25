@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -11,8 +11,7 @@ description: MTech student
 lastname: 
 publications:
 
-teaser: >
-    ....
+teaser: 
 
 profile:
     name: Aman

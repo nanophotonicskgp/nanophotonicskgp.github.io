@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,12 +9,10 @@ year: 2020
 title: Brijesh Kumar
 description: MTech student
 lastname: Kumar
-publications: 'author^=*Brijesh'
+publications: '@*[author^=.*(Brijesh.*Kumar|Kumar.*Brijesh)]'
 
 teaser: >
-    Brijesh finished his MTech in July 2025. His research focused ....
-    M.Tech Thesis: Characterization of Dye-Doped Poly (methyl methacrylate) Thin Films and Fabrication of Microdisc
-    Resonators by Solvent Immersion Imprint Lithography
+    M.Tech Thesis: Characterization of Dye-Doped Poly (methyl methacrylate) Thin Films and Fabrication of Microdisc Resonators by Solvent Immersion Imprint Lithography
 profile:
     name: Brijesh Kumar
     position: MTech Student 
@@ -28,10 +26,4 @@ profile:
        
 ---
 
-Pranab was a MTech student in the Department of .....
-
-## Short Bio
-
-... has completed the degree in Summer 2025. Currrently ......
-
-## Publication
+*Updated: Feb 09, 2026*

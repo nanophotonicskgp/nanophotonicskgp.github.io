@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -9,11 +9,11 @@ year: 2021
 title: Priyanka S. Choubey
 description: PhD Student
 lastname: Choubey
-publications: 'author^=*Priyanka'
+publications: '@*[author^=.*(Priyanka.*Choubey|Choubey.*Priyanka)]'
 
 teaser: >
-    Completed her PhD on Aug 2021.<br>
     PhD Thesis: Spectroscopic and Statistical Investigations on the Modes of Weakly Scattering Dye-Doped Polymeric Random Lasers Metal Disulfides for Photonics.
+
 profile:
     name: Priyanka S. Choubey
     position: Postdoctoral Researcher, Northumbria University, UK

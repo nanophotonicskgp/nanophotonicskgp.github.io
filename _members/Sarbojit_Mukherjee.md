@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -9,10 +9,9 @@ year: 2024
 title: Sarbojit Mukherjee
 description: PhD student
 lastname: Mukherjee
-publications: 'author^=*Sarbojit'
+publications: '@*[author^=.*(Sarbojit.*Mukherjee|Mukherjee.*Sarbojit)]'
 
 teaser: >
-    Completed his PhD on Dec 2024.<br>
     PhD Thesis: Development of Optical Fiber-Based Crack Monitoring, Temperature Sensing, and Illumination Systems for Underground Coal Mines and Civil Infrastructures.
 
 profile:

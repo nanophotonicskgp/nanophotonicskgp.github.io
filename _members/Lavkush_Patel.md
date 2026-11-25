@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,7 +9,7 @@ year: 2026
 title: Lavkush Patel
 description: MTech student
 lastname: Patel
-publications: 'author^=*Lavkush'
+publications:
 
 teaser: >
     Physics student turned M.Tech researcher, exploring materials and photonic systems with curiosity and a love for hands-on learning.

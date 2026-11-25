@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,12 +9,11 @@ year: 2022
 title: Pallabi Gogoi
 description: MTech student
 lastname: Gogoi
-publications: 'author^=*Pallabi'
+publications: 
 
 teaser: >
-    Pallabi finished his MTech in July 2025. His research focused ....
     M.Tech Thesis: Finite Difference Time Domain Computational Studies of Soft-Lithography Fabricated Whispering Gallery Mode Resonator
-    Model: 
+  
 profile:
     name: Pallabi Gogoi
     position: MTech Student 
@@ -28,10 +27,5 @@ profile:
        
 ---
 
-Pranab was a MTech student in the Department of .....
 
-## Short Bio
-
-... has completed the degree in Summer 2025. Currrently ......
-
-## Publication
+*Updated: Feb 09, 2026*

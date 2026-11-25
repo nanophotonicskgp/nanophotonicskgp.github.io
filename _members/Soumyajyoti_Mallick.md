@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,12 +9,11 @@ year: 2019
 title: Soumyajyoti Mallick
 description: MTech student
 lastname: Mallick
-publications: 'author^=*Soumyajyoti'
+publications: '@*[author^=.*(Soumyajyoti.*Mallick|Mallick.*Soumyajyoti)]'
 
 teaser: >
-    Soumyajyoti finished his MTech in July 2025. His research focused ....
     M.Tech Thesis: Colloidal and Waveguide Random Lasers
-    Model: 
+  
 profile:
     name: Soumyajyoti Mallick
     position: MTech Student 
@@ -28,10 +27,4 @@ profile:
        
 ---
 
-Pranab was a MTech student in the Department of .....
-
-## Short Bio
-
-... has completed the degree in Summer 2025. Currrently ......
-
-## Publication
+*Updated: Feb 09, 2026*

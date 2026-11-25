@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -9,10 +9,9 @@ year: 2020
 title: Rup Kumar Chowdhury
 description: PhD Students
 lastname: Chowdhury
-publications: 'author^=*Rup Kumar'
+publications: '@*[author^=.*(Rup.*Chowdhury|Chowdhury.*Rup)]'
 
 teaser: >
-    Completed his PhD on Aug 2020.<br>
     PhD Thesis: Ultrafast Studies on Light-Matter Interactions in Layered Transition Metal Disulfides for Photonics.
 profile:
     name: Rup Kumar Chowdhury

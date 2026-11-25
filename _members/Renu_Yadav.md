@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -10,10 +10,9 @@ year : 2025
 title: Renu Yadav
 description: PhD student
 lastname: Yadav
-publications: 'author^=*Renu'
+publications: '@*[author^=.*(Renu.*Yadav|Yadav.*Renu)]'
 
 teaser: >
-    Completed her PhD on March 2025.<br>
     PhD Thesis: Investigations of Spatial, Spectral and Thermal Perturbations on the Modes of Random Lasers.
 profile:
     name: Renu Yadav

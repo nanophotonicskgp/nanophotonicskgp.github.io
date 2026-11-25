@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,10 +9,9 @@ year: 2026
 title: Sasmita Sen
 description: MTech student
 lastname: Sen
-publications: 'author^=*Sasmita'
+publications: 
 
 teaser: >
-    ....
 
 profile:
     name: Sasmita Sen
@@ -29,8 +28,4 @@ profile:
 ---
 
 
-## Short Bio
-
-
-
-## Publication
+*Updated: Feb 09, 2026*

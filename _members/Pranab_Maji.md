@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (MTech)
 group_rank: 6
@@ -9,12 +9,11 @@ year: 2024
 title: Pranab Maji
 description: MTech student
 lastname: Maji
-publications: 'author^=*Pranab'
+publications:
 
 teaser: >
-    Pranab finished his MTech in July 2025. His research focused ....
-    MS Thesis: 
-    Model: 
+    MTech Thesis: 
+  
 profile:
     name: Pranab Maji
     position: MTech Student 
@@ -29,10 +28,5 @@ profile:
         India
 ---
 
-Pranab was a MTech student in the Department of .....
-
-## Short Bio
-
-... has completed the degree in Summer 2025. Currrently ......
 
 *Updated: Feb 09, 2026*

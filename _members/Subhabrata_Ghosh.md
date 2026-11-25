@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: member
 inline: false
 group: Alumni (PhD)
 group_rank: 4
@@ -9,10 +9,9 @@ year: 2018
 title: Subhabrata Ghosh 
 description: PhD Students
 lastname: Das
-publications: 'author^=*Subhabrata'
+publications: '@*[author^=.*(Subhabrata.*Ghosh|Ghosh.*Subhabrata)]'
 
 teaser: >
-    Completed his PhD on Jul 2018.<br>
     PhD Thesis: Europium Doped Zinc Oxide and Graphene Oxide Integrated Glasses and Glass-Ceramics for Integrated Optics.
 profile:
     name: Subhabrata Ghosh 

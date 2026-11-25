@@ -1,34 +1,40 @@
 ---
-layout: about
+layout: member
 inline: false
 group: PhD Students
-group_rank: 2
+group_rank: 3
 team_collaborator: false
-
 
 title: Biplab Mahapatra
 description: PhD student
-lastname: Mahapatra        
-publications:  
+lastname: Mahapatra
+publications: '@*[author^=.*(Biplab.*Mahapatra|Mahapatra.*Biplab)]'
 
-teaser: >
-    Biplab is a graduate ...
+teaser: |-
+  Working on cavity optomechanics.
 profile:
-    name: Biplab Mahapatra
-    position: Doctoral Student 
-    align: right
-    image: #PLCG_profile.jpg
-    role: 
-    email:  
-    github: 
-    orcid: 
-    address: >
-         
+  name: Biplab Mahapatra
+  position: Doctoral Student
+  align: right
+  image: team/biplab-mahapatra.jpg 
+  role:
+  email: biplabmahapatra2018@gmail.com
+  github:
+  orcid:
+  address: >
+    Department of Physics,
+    IIT Kharagpur
+  team-position:
+  website:
+  linkedin:
+  researchgate:
+  gscholar:
+  twitter:
+  cv:
+year: 2025
+last_updated: 2026-11-25
 ---
 
-I am a PhD student ....
 
 
-## Short Bio
-
-I have my B.Sc degree in .....
+*Updated: Nov 25, 2026*

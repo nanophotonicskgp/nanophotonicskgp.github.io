@@ -1,15 +1,15 @@
 ---
-layout: about
+layout: member
 inline: false
 group: PhD Students
-group_rank: 2
+group_rank: 3
 team_collaborator: false
-
+year: 2024
 
 title:  Biplab Dhara
 description: PhD student
 lastname: Dhara        
-publications: 'author^=*Biplab'
+publications: '@*[author^=.*(Biplab.*Dhara|Dhara.*Biplab)]'
 
 teaser: >
     Currently working on developing the periodic structures for integrated optics applications.
